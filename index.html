@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header1" id="header-menu">
+        <nav>
+            <div class="logo">
+                <img src="./about-img2.png" class="logo-img" alt="">
+                <h2 class="text-dark px-1">Sirajul Shuvo</h2>
+            </div>
+            <div class="menu">
+                <ion-icon name="menu-outline"  class="text-dark fs-3 border icon1"></ion-icon>
+                <ion-icon name="close-outline" class="text-dark fs-3 icon1 border"></ion-icon>
+            </div>
+            <ul class="un-list" id="unO-list">
+                <li><a href=""><i class="fa-solid fa-user mww px-1"></i>Home</a></li>
+                <li><a href="#About"><i class="fa-solid fa-address-card px-1 mww"></i>About</a></li>
+                <li><a href="#servicE"><i class="fa-brands fa-servicestack px-1 mww"></i>Service</a></li>
+                <li><a href="contact.html" target="_blank"><i class="fa-solid fa-address-book px-1 mww"></i>Contact</a></li>
+                <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><img src="./img(1).jpg" class="Extra-img" alt=""></a>
+                    <ul class="dropdown-menu ">
+                        <li><a href="#" class="dropdown-item text-center "><i class="fa-solid fa-user px-2"></i>Protfolio</a></li>
+                        <li><a href="#" class="dropdown-item text-center"><i class="fa-solid fa-school  px-2"></i>Education</a></li>
+                        <li><a href="#" class="dropdown-item text-center"><i class="fa-solid fa-kitchen-set px-2"></i>Skill</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="#"id="theme" onclick="myMessage()" class="dropdown-item text-center"><i class="fa-solid fa-droplet px-2"></i>Dark theme</a></li>
+                        <li><a href="#"id="theme" onclick="myMessage1()" class="dropdown-item text-center"><i class="fa-solid fa-droplet px-2"></i>White theme</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="content text-dark">
+            <div class="content-body">
+                <h1 class="">Create and grow your unique website today</h1>
+                <h3>Web Designer</h3>
+                <p>Programmatically work but low hanging fruit so new economy cross-pollination. Quick sync new economy onward and upward.</p>
+                <button class="custom-btn custom1">LEARN MORE</button>
+                <button class="custom-btn custom2">SEE ALL DEMO</button>
+            </div>
+        </div>
+    </header>
+    <!-- about -->
+    <div class="about " id="About">
+        <div class="about-header">
+            <h1 class="text-center text-white fst-italic">About</h1>
+        </div>
+        <div class="about-body ">
+            <div class="about-images">
+                <img src="./img(1).jpg" class="about-img" alt="">
+            </div>
+            <div class="about-content text-white">
+                <h1>Sirajul Shuvo</h1>
+                <h3>Web Designer</h3>
+                <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam eius esse aliquid! Tenetur officiis qui similique, incidunt explicabo repudiandae!</p>
+                <button class="btn btn-outline-warning">Follow Me</button>
+            </div>
+        </div>
+    </div>
+    <!-- Service  -->
+    <div class="service" id="servicE">
+        <div class="service-header">
+            <div class="hero ">
+                <div class="divider"></div>
+                <div class="divider-heading text-white">
+                    <h1 class="heading-para">Services</h1>
+                </div>
+            </div>
+            <p class="test-para one">WE ARE BEST DIGITAL AGENCY SINCE 2008</p>
+        </div>
+        <div class="service-body">
+                <div class="col1 text-white">
+                    <img src="./branding (1).jpg" class="service-img" alt="">
+                    <h2>Branding Desingn</h2>
+                    <p>Sem quis erat nibh id neque tincidunt molestie convallis ut nibh vel, lorem consequat ullamcorper.</p>
+                </div>
+                <div class="col2 text-white">
+                    <img src="./web.jpg" class="service-img" alt="">
+                    <h2>Graphics Design</h2>
+                    <p>Sem quis erat nibh id neque tincidunt molestie convallis ut nibh vel, lorem consequat ullamcorper.</p>
+                </div>
+                <div class="col3 text-white">
+                    <img src="./graphic.jpg"  class="service-img" alt="">
+                    <h2>Web Development</h2>
+                    <p>Sem quis erat nibh id neque tincidunt molestie convallis ut nibh vel, lorem consequat ullamcorper.</p>
+                </div>
+            </div>
+    </div>
+    <!-- testimonial section -->
+    <div class="testomonial">
+        <div class="testomonial-header">
+            <div class="hero two">
+                <div class="divider"></div>
+                <div class="divider-heading text-white">
+                    <h1 class="heading-para">Testomonial</h1>
+                </div>
+            </div>
+            <p  class="test-para">FEEDBACK FROUM OUR CLIENTS</p>
+        </div>
+        <div class="testomonial-body">
+            <div class="row test-row">
+                <div class="col-lg-3">
+                    <div class="card test-card">
+                        <div class="card-body">
+                            <h1><img src="./quote.webp" class="card-img1" alt=""></h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat bibendum turpis sit amet pretium. Nunc ut dui ornare, vulputate augue sed, varius velit.</p>
+                            <img src="./img(1).jpg" class="card-img2" alt="">
+                        </div>
+                    </div>
+                    <div class="test-footer text-white text-center mt-4">
+                        <h5>Sirajul shuvo</h5>
+                        <p>Designer</p>
+                    </div>
+                </div>
+            <!-- card-2 -->
+            <div class="col-lg-3">
+                <div class="card test-card">
+                    <div class="card-body">
+                        <h1><img src="./quote.webp" class="card-img1" alt=""></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat bibendum turpis sit amet pretium. Nunc ut dui ornare, vulputate augue sed, varius velit.</p>
+                        <img src="./man-person-people-hair-photography-summer-1177664-pxhere.com.webp" class="card-img2" alt="">
+                    </div>
+                </div>
+                <div class="test-footer text-white text-center mt-4">
+                    <h5>Jennifer Doe</h5>
+                    <p>Marketing</p>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <!-- card 3 -->
+            <div class="col-lg-3">
+                <div class="card test-card">
+                    <div class="card-body">
+                        <h1><img src="./quote.webp" class="card-img1" alt=""></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat bibendum turpis sit amet pretium. Nunc ut dui ornare, vulputate augue sed, varius velit.</p>
+                        <img src="./man-person-people-lawn-photography-model-1220414-pxhere.com.webp" class="card-img2" alt="">
+                    </div>
+                </div>
+                <div class="test-footer text-white text-center mt-4">
+                    <h5>Claudia Doe</h5>
+                    <p>Consultar</p>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <!-- card 4 -->
+            <div class="col-lg-3">
+                <div class="card test-card">
+                    <div class="card-body">
+                        <h1><img src="./quote.webp" class="card-img1" alt=""></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat bibendum turpis sit amet pretium. Nunc ut dui ornare, vulputate augue sed, varius velit.</p>
+                        <img src="./person-girl-woman-hair-photography-portrait-108386-pxhere.com.webp" class="card-img2" alt="">
+                    </div>
+                </div>
+                <div class="test-footer text-white text-center mt-4">
+                    <h5>Steven Doe</h5>
+                    <p>Programmer</p>
+                </div>
+            </div>
+            <!-- card 4 -->
+            </div>
+        </div>
+    </div>
+    <!-- WORK  -->
+    <div class="work">
+        <div class="work-header">
+            <div class="hero">
+                <div class="divider"></div>
+                <div class="divider-heading text-white">
+                    <h1 class="heading-para">Work</h1>
+                </div>
+            </div>
+            <p  class="test-para one">PROJECTS WE HAVE DONE</p>
+        </div>
+        <div class="work-body">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="./cameras-optics-camera-accessory-camera-photograph-Point-and-shoot-camera-photography-1524315-pxhere.com.webp" class="work-img" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./cameras-optics-Point-and-shoot-camera-photograph-camera-camera-accessory-white-1618001-pxhere.com.webp" class="work-img" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./watch-hand-car-wheel-time-hour-712324-pxhere.com.webp"  class="work-img"alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./technology-gadget-ear-font-audio-headphones-1237753-pxhere.com.webp" class="work-img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team section -->
+    <div class="team">
+        <div class="team-header">
+            <div class="hero">
+                <div class="divider"></div>
+                <div class="divider-heading text-white">
+                    <h1 class="heading-para">TEAM'S</h1>
+                </div>
+            </div>
+            <h3  class="test-para one">Our Honorable Team Member</h3>
+        </div>
+        <div class="team-body">
+            <div class="row team-content">
+                <div class="col-lg-4">
+                    <img src="./shuvo.jpg" class="team-img" alt="">
+                    <h2 class="text-white">Sirajul Shuvo</h2>
+                    <h5  class="text-white">Designer</h5>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./man-person-people-lawn-photography-model-1220414-pxhere.com.webp" class="team-img" alt="">
+                    <h2 class="text-white">Sunny Dev</h2>
+                    <h5  class="text-white">SEO Expert</h5>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./man-person-people-hair-photography-summer-1177664-pxhere.com.webp" class="team-img" alt="">
+                    <h2 class="text-white">Robin Dev</h2>
+                    <h5  class="text-white">Developer</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer section -->
+    <div class="footer">
+        <div class="footer-body">
+            <h1>Let’s work together on your</h1>
+            <h3>next web project</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+            nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <button class="btn btn-outline-warning">LEARN MORE</button>
+        </div>
+    </div>
+
+        <script src="index.js"></script>
+      <!-- icon js -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
